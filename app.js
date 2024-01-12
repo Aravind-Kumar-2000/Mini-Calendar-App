@@ -1,4 +1,4 @@
-const calender = new Date();
+const calendar = new Date();
 
 const date = document.querySelector(".date");
 const day = document.querySelector(".day");
@@ -9,7 +9,7 @@ const weekDays = ["Sunday", "Month", "Tuesday", "Wednesday", "Thursday", "Friday
 
 const allMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-date.innerHTML =(calender.getDate() < 10 ? "0" : "") + calender.getDate();
-day.innerHTML = weekDays[calender.getDay()];
-month.innerHTML = allMonths[calender.getMonth()];
-year.innerHTML = calender.getFullYear();
+date.innerHTML =(calendar.getDate() < 10 ? "0" : "") + calendar.getDate();
+day.innerHTML = weekDays[calendar.getDay()];
+month.innerHTML = allMonths[calendar.getMonth()];
+year.innerHTML = calendar.getFullYear();
