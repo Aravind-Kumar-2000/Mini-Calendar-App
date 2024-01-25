@@ -1,0 +1,2 @@
+(i) Almanac, a Mini Calender Website completed by using HTML, CSS & JavaScript.
+(ii) It is purely a Front end Project
